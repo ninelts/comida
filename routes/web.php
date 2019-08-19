@@ -18,6 +18,8 @@ Route::get('/', function () {
 Route::get('/comida', 'rComidaController@index')->name('ver_comida');
 Route::get('/comida/ver', 'rComidaController@ver')->name('tabla_comida');;
 Route::post('/comida/register', 'rComidaController@register')->name('registro_comida');
+Route::post('/comida/editar', 'rComidaController@update')->name('editar_comida');
+
 
 
 Auth::routes();

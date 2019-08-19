@@ -12,6 +12,10 @@
     <!-- Scripts -->
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
     <script src="{{ asset('js/app.js') }}" defer></script>
+    
+<script src = "https://cdn.datatables.net/select/1.3.0/js/dataTables.select.min.js" defer></script>
+<script src = "https://cdn.datatables.net/buttons/1.5.6/js/dataTables.buttons.min.js" defer></script>
+<script src = "http://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
